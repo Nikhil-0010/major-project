@@ -1,0 +1,25 @@
+{
+  "source_csv": "C:\\Users\\Nikhil\\Desktop\\Major-Project\\data\\heart_uci.csv",
+  "clean_csv": "C:\\Users\\Nikhil\\Desktop\\Major-Project\\artifacts\\data\\heart_uci_clean.csv",
+  "n_rows": 920,
+  "n_cols": 16,
+  "numeric_features_hint": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalch",
+    "oldpeak",
+    "ca"
+  ],
+  "categorical_features_hint": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "thal"
+  ],
+  "target": "num",
+  "created_at": "2026-01-07 03:00:12"
+}

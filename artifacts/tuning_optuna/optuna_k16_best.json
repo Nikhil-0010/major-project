@@ -1,0 +1,35 @@
+{
+  "k": 16,
+  "top_features": [
+    "cp_asymptomatic",
+    "cp_atypical angina",
+    "sex_Female",
+    "thal_normal",
+    "ca",
+    "chol",
+    "oldpeak",
+    "age",
+    "slope_flat",
+    "thal_reversable defect",
+    "restecg_normal",
+    "cp_typical angina",
+    "cp_non-anginal",
+    "thalch",
+    "restecg_st-t abnormality",
+    "restecg_lv hypertrophy"
+  ],
+  "best_params": {
+    "n_estimators": 350,
+    "max_depth": 7,
+    "learning_rate": 0.054629399890334725,
+    "subsample": 0.7105361767924347,
+    "colsample_bytree": 0.6739448960764117,
+    "reg_alpha": 0.0013297160419986338,
+    "reg_lambda": 6.823446048075388e-08,
+    "min_child_weight": 8,
+    "gamma": 3.192872325033639
+  },
+  "best_value": 0.8834897652783832,
+  "n_trials": 40,
+  "duration_seconds": 66.91586971282959
+}

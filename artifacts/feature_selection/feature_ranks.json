@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "cp_asymptomatic",
+    "rank": 1
+  },
+  {
+    "feature": "cp_atypical angina",
+    "rank": 2
+  },
+  {
+    "feature": "sex_Female",
+    "rank": 3
+  },
+  {
+    "feature": "thal_normal",
+    "rank": 4
+  },
+  {
+    "feature": "ca",
+    "rank": 5
+  },
+  {
+    "feature": "chol",
+    "rank": 6
+  },
+  {
+    "feature": "oldpeak",
+    "rank": 7
+  },
+  {
+    "feature": "age",
+    "rank": 8
+  },
+  {
+    "feature": "slope_flat",
+    "rank": 9
+  },
+  {
+    "feature": "thal_reversable defect",
+    "rank": 10
+  },
+  {
+    "feature": "restecg_normal",
+    "rank": 11
+  },
+  {
+    "feature": "cp_typical angina",
+    "rank": 12
+  },
+  {
+    "feature": "cp_non-anginal",
+    "rank": 13
+  },
+  {
+    "feature": "thalch",
+    "rank": 14
+  },
+  {
+    "feature": "restecg_st-t abnormality",
+    "rank": 15
+  },
+  {
+    "feature": "restecg_lv hypertrophy",
+    "rank": 16
+  },
+  {
+    "feature": "slope_upsloping",
+    "rank": 17
+  },
+  {
+    "feature": "trestbps",
+    "rank": 18
+  },
+  {
+    "feature": "thal_fixed defect",
+    "rank": 19
+  },
+  {
+    "feature": "slope_downsloping",
+    "rank": 20
+  },
+  {
+    "feature": "fbs_False",
+    "rank": 21
+  },
+  {
+    "feature": "exang_True",
+    "rank": 22
+  },
+  {
+    "feature": "exang_False",
+    "rank": 23
+  },
+  {
+    "feature": "fbs_True",
+    "rank": 24
+  },
+  {
+    "feature": "sex_Male",
+    "rank": 25
+  }
+]

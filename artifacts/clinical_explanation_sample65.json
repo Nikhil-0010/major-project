@@ -1,0 +1,49 @@
+{
+  "probability": 0.9914893627166748,
+  "predicted_label": 1,
+  "top_positive": [
+    {
+      "feature": "oldpeak",
+      "shap": 1.1172728538513184
+    },
+    {
+      "feature": "cp_asymptomatic",
+      "shap": 0.6949635744094849
+    },
+    {
+      "feature": "exang_False",
+      "shap": 0.5720288753509521
+    }
+  ],
+  "top_negative": [],
+  "all_drivers": [
+    {
+      "feature": "oldpeak",
+      "shap": 1.1172728538513184
+    },
+    {
+      "feature": "cp_asymptomatic",
+      "shap": 0.6949635744094849
+    },
+    {
+      "feature": "exang_False",
+      "shap": 0.5720288753509521
+    },
+    {
+      "feature": "thal_normal",
+      "shap": 0.4938250780105591
+    },
+    {
+      "feature": "chol",
+      "shap": 0.25147101283073425
+    },
+    {
+      "feature": "sex_Female",
+      "shap": 0.14720554649829865
+    },
+    {
+      "feature": "cp_atypical angina",
+      "shap": 0.060926858335733414
+    }
+  ]
+}

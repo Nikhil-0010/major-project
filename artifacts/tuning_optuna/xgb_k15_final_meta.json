@@ -1,0 +1,22 @@
+{
+  "saved_as": "sklearn_wrapper",
+  "path": "../artifacts/tuning_optuna\\xgb_k15_final.joblib",
+  "k": 15,
+  "top_features": [
+    "cp_asymptomatic",
+    "cp_atypical angina",
+    "sex_Female",
+    "thal_normal",
+    "ca",
+    "chol",
+    "oldpeak",
+    "age",
+    "slope_flat",
+    "thal_reversable defect",
+    "restecg_normal",
+    "cp_typical angina",
+    "cp_non-anginal",
+    "thalch",
+    "restecg_st-t abnormality"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "model": "LogisticRegression",
+  "features": "Top-7",
+  "roc_auc": 0.9215686274509804,
+  "avg_precision": 0.9407498219812951,
+  "brier": 0.11461763092374595,
+  "best_params": {
+    "C": 1.0
+  },
+  "train_time_s": 14.476996898651123
+}

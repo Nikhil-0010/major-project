@@ -1,0 +1,10 @@
+{
+  "roc_uncalibrated": 0.9218077474892397,
+  "ap_uncalibrated": 0.9242981248636075,
+  "brier_uncalibrated": 0.1104835082713608,
+  "roc_calibrated": 0.9246174079387852,
+  "ap_calibrated": 0.9288074235651942,
+  "brier_calibrated": 0.11038611136974262,
+  "ece_uncalibrated": 0.05667235864245372,
+  "ece_calibrated": 0.05064135974516041
+}
