@@ -117,7 +117,13 @@ export default function ResultsDashboard({ data }) {
               </div>
               {sources.map((s, i) => (
                 <div key={i} className="src">
-                  <div className="src__name">{s.name}</div>
+                  {s.url ? (
+                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="src__name src__link" style={{ display: 'block', color: 'var(--accent)', textDecoration: 'none' }} onMouseOver={(e) => e.target.style.textDecoration = 'underline'} onMouseOut={(e) => e.target.style.textDecoration = 'none'}>
+                      {s.name} ↗
+                    </a>
+                  ) : (
+                    <div className="src__name">{s.name}</div>
+                  )}
                   <div className="src__cite">{s.citation}</div>
                 </div>
               ))}
