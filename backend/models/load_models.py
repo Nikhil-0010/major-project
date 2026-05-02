@@ -136,7 +136,7 @@ def load_all_models():
     print(f"  [OK] {len(registry.transformed_feature_names)} transformed features derived")
 
     # --- XGB Stream ---
-    xgb_path = os.path.join(confpath.MODELS_DIR, "xgb_k15_final.joblib")
+    xgb_path = os.path.join(confpath.MODELS_DIR, "xgb_stream.joblib")
     registry.xgb_model = joblib.load(xgb_path)
     print(f"  [OK] XGB stream loaded from {xgb_path}")
 
