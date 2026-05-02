@@ -78,7 +78,7 @@ body {
 }
 .header__name {
   font-size: 1.15rem; font-weight: 700;
-  background: linear-gradient(135deg, #e2e8f0, var(--cyan));
+  background: linear-gradient(135deg, var(--accent), var(--cyan));
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   background-clip: text;
 }
