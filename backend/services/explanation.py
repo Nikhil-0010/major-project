@@ -59,6 +59,7 @@ def build_explanation(raw_input: dict, prediction: PredictionResult) -> dict:
                 "name": src["name"],
                 "citation": src["citation"],
                 "description": src["description"],
+                "url": src.get("url"),
             })
 
     # Always include key guideline sources
@@ -70,6 +71,7 @@ def build_explanation(raw_input: dict, prediction: PredictionResult) -> dict:
                 "name": src["name"],
                 "citation": src["citation"],
                 "description": src["description"],
+                "url": src.get("url"),
             })
 
     return {

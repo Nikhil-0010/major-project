@@ -118,7 +118,7 @@ export default function ResultsDashboard({ data }) {
               {sources.map((s, i) => (
                 <div key={i} className="src">
                   {s.url ? (
-                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="src__name src__link" style={{ display: 'block', color: 'var(--accent)', textDecoration: 'none' }} onMouseOver={(e) => e.target.style.textDecoration = 'underline'} onMouseOut={(e) => e.target.style.textDecoration = 'none'}>
+                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="src__name src__link" style={{ display: 'block', color: 'var(--accent)', textDecoration: 'none' }} onMouseOver={(e) => e.target.style.textDecoration = 'underline'} onMouseOut={(e) => e.target.style.textDecoration = 'none'} title="Go to medical reference ↗">
                       {s.name} ↗
                     </a>
                   ) : (
