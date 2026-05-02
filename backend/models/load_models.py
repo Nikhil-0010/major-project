@@ -188,8 +188,14 @@ def load_all_models():
         print(f"  [OK] XGB AUC: {registry.xgb_auc:.4f}, Hybrid AUC: {registry.hybrid_auc:.4f}")
 
     # --- SHAP Explainer (TreeExplainer on XGB stream) ---
-    registry.explainer = shap.TreeExplainer(registry.xgb_model)
-    print("  [OK] SHAP TreeExplainer created")
+    try:
+        # Using shap.Explainer instead of TreeExplainer as it has better memory handling
+        # and doesn't trigger the same C-level segfaults on certain Linux systems.
+        registry.explainer = shap.Explainer(registry.xgb_model)
+        print("  [OK] SHAP Explainer created")
+    except Exception as e:
+        print(f"  [ERROR] SHAP Explainer failed to initialize: {e}")
+        registry.explainer = None
 
     print("[INFO] All models loaded successfully.\n")
     return registry

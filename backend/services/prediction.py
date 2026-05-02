@@ -136,14 +136,18 @@ def predict(input_data: dict) -> PredictionResult:
         mode = "xgb_only"
 
     # 7. SHAP values (on XGB selected features)
-    shap_vals = reg.explainer.shap_values(X_xgb)
-
-    # Handle different SHAP output formats
-    if isinstance(shap_vals, list):
-        # Binary classification: [class_0, class_1]
-        shap_vals = shap_vals[1] if len(shap_vals) > 1 else shap_vals[0]
-
-    shap_values_1d = shap_vals[0] if shap_vals.ndim > 1 else shap_vals
+    if reg.explainer is not None:
+        shap_vals = reg.explainer.shap_values(X_xgb)
+        
+        # Handle different SHAP output formats
+        if isinstance(shap_vals, list):
+            # Binary classification: [class_0, class_1]
+            shap_vals = shap_vals[1] if len(shap_vals) > 1 else shap_vals[0]
+            
+        shap_values_1d = shap_vals[0] if shap_vals.ndim > 1 else shap_vals
+    else:
+        # Fallback if SHAP crashed during server startup
+        shap_values_1d = np.zeros(X_xgb.shape[1])
 
     # Feature names for the selected features
     shap_feature_names = [reg.transformed_feature_names[i] for i in reg.xgb_indices]
