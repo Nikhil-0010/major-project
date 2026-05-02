@@ -106,6 +106,7 @@ async def predict_endpoint(patient: PatientInput):
                 name=s["name"],
                 citation=s["citation"],
                 description=s["description"],
+                url=s["url"]
             )
             for s in explanation["sources"]
         ]

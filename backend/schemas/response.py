@@ -41,6 +41,7 @@ class SourceInfo(BaseModel):
     name: str
     citation: str
     description: str
+    url: Optional[str] = None
 
 
 class ModelInfo(BaseModel):

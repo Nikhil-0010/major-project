@@ -16,7 +16,7 @@ export default function ResultsDashboard({ data }) {
     recommendation_doctor, recommendation_patient,
     sources, model_info,
   } = data;
-
+  console.log(sources)
   const rec = view === "doctor" ? recommendation_doctor : recommendation_patient;
   const narrative = view === "doctor" ? doctor_view : patient_view;
 
@@ -118,7 +118,7 @@ export default function ResultsDashboard({ data }) {
               {sources.map((s, i) => (
                 <div key={i} className="src">
                   {s.url ? (
-                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="src__name src__link" style={{ display: 'block', color: 'var(--accent)', textDecoration: 'none' }} onMouseOver={(e) => e.target.style.textDecoration = 'underline'} onMouseOut={(e) => e.target.style.textDecoration = 'none'} title="Go to medical reference ↗">
+                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="src__name tooltip-trigger" data-tooltip="Go to medical reference ↗" style={{ display: 'inline-block', color: 'var(--accent)', textDecoration: 'none', position: 'relative' }} onMouseOver={(e) => e.target.style.textDecoration = 'underline'} onMouseOut={(e) => e.target.style.textDecoration = 'none'}>
                       {s.name} ↗
                     </a>
                   ) : (

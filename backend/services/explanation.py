@@ -74,6 +74,7 @@ def build_explanation(raw_input: dict, prediction: PredictionResult) -> dict:
                 "url": src.get("url"),
             })
 
+
     return {
         "risk_factors": explanation.get("risk_factors", []),
         "protective_factors": explanation.get("protective_factors", []),
