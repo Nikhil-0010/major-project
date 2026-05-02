@@ -1,0 +1,11 @@
+High risk of heart disease (99.2%).
+
+Factors increasing risk:
+• ST depression (indicator of ischemia) (+1.049)
+• Number of major vessels blocked (+0.941)
+• Chest pain type (+0.844)
+• Maximum heart rate achieved (+0.624)
+• Thalassemia / perfusion defect (+0.577)
+
+Factors reducing risk:
+• Resting ECG result (-0.024)

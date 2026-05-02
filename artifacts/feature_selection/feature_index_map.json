@@ -1,0 +1,81 @@
+{
+  "full_feature_names": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalch",
+    "oldpeak",
+    "ca",
+    "sex_Female",
+    "sex_Male",
+    "cp_asymptomatic",
+    "cp_atypical angina",
+    "cp_non-anginal",
+    "cp_typical angina",
+    "fbs_False",
+    "fbs_True",
+    "restecg_lv hypertrophy",
+    "restecg_normal",
+    "restecg_st-t abnormality",
+    "exang_False",
+    "exang_True",
+    "slope_downsloping",
+    "slope_flat",
+    "slope_upsloping",
+    "thal_fixed defect",
+    "thal_normal",
+    "thal_reversable defect"
+  ],
+  "numeric_features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalch",
+    "oldpeak",
+    "ca"
+  ],
+  "categorical_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "thal"
+  ],
+  "categories_list": [
+    [
+      "Female",
+      "Male"
+    ],
+    [
+      "asymptomatic",
+      "atypical angina",
+      "non-anginal",
+      "typical angina"
+    ],
+    [
+      "False",
+      "True"
+    ],
+    [
+      "lv hypertrophy",
+      "normal",
+      "st-t abnormality"
+    ],
+    [
+      "False",
+      "True"
+    ],
+    [
+      "downsloping",
+      "flat",
+      "upsloping"
+    ],
+    [
+      "fixed defect",
+      "normal",
+      "reversable defect"
+    ]
+  ]
+}

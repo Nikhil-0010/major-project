@@ -1,0 +1,50 @@
+{
+  "categorical_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "thal"
+  ],
+  "categories_list": [
+    [
+      "Female",
+      "Male"
+    ],
+    [
+      "asymptomatic",
+      "atypical angina",
+      "non-anginal",
+      "typical angina"
+    ],
+    [
+      "False",
+      "True",
+      "missing"
+    ],
+    [
+      "lv hypertrophy",
+      "normal",
+      "st-t abnormality"
+    ],
+    [
+      "False",
+      "True",
+      "missing"
+    ],
+    [
+      "downsloping",
+      "flat",
+      "missing",
+      "upsloping"
+    ],
+    [
+      "fixed defect",
+      "missing",
+      "normal",
+      "reversable defect"
+    ]
+  ]
+}

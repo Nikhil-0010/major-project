@@ -1,0 +1,126 @@
+feature,importance,fold
+cp_asymptomatic,0.34256294,1
+exang_False,0.14098631,1
+thal_normal,0.044075727,1
+sex_Female,0.041190747,1
+slope_upsloping,0.04080391,1
+age,0.04049451,1
+chol,0.038875874,1
+cp_atypical angina,0.03738948,1
+cp_typical angina,0.033518523,1
+oldpeak,0.03301393,1
+ca,0.02851682,1
+thalch,0.027487146,1
+thal_reversable defect,0.0247666,1
+slope_flat,0.020062046,1
+restecg_normal,0.019196544,1
+restecg_lv hypertrophy,0.017252127,1
+restecg_st-t abnormality,0.016356817,1
+thal_fixed defect,0.015403407,1
+fbs_False,0.013308313,1
+trestbps,0.012033025,1
+cp_non-anginal,0.010453586,1
+slope_downsloping,0.002251648,1
+fbs_True,0.0,1
+exang_True,0.0,1
+sex_Male,0.0,1
+cp_asymptomatic,0.21800357,2
+exang_False,0.15655133,2
+cp_atypical angina,0.10596091,2
+oldpeak,0.05968135,2
+sex_Female,0.055539284,2
+thal_normal,0.053208698,2
+chol,0.04677039,2
+age,0.04673211,2
+cp_non-anginal,0.034631994,2
+thalch,0.033531,2
+ca,0.03180472,2
+fbs_False,0.02946537,2
+thal_reversable defect,0.024511652,2
+slope_upsloping,0.021878658,2
+restecg_normal,0.020360444,2
+slope_flat,0.018538281,2
+trestbps,0.017316457,2
+restecg_lv hypertrophy,0.011019483,2
+cp_typical angina,0.00739493,2
+restecg_st-t abnormality,0.0070993328,2
+fbs_True,0.0,2
+exang_True,0.0,2
+slope_downsloping,0.0,2
+thal_fixed defect,0.0,2
+sex_Male,0.0,2
+cp_asymptomatic,0.34315896,3
+exang_False,0.13085389,3
+chol,0.051283836,3
+oldpeak,0.046519168,3
+thal_normal,0.04373348,3
+cp_atypical angina,0.043493286,3
+sex_Female,0.042419888,3
+age,0.03755487,3
+ca,0.037019297,3
+thalch,0.03288091,3
+restecg_normal,0.028184358,3
+fbs_False,0.024860892,3
+cp_typical angina,0.023793481,3
+slope_upsloping,0.02323578,3
+slope_flat,0.019711012,3
+restecg_st-t abnormality,0.018823342,3
+trestbps,0.017794507,3
+thal_reversable defect,0.012542873,3
+cp_non-anginal,0.012293515,3
+slope_downsloping,0.0051694717,3
+restecg_lv hypertrophy,0.0046732416,3
+fbs_True,0.0,3
+exang_True,0.0,3
+thal_fixed defect,0.0,3
+sex_Male,0.0,3
+cp_asymptomatic,0.28524077,4
+exang_False,0.14392237,4
+slope_upsloping,0.07056827,4
+cp_atypical angina,0.06606877,4
+chol,0.05786864,4
+sex_Female,0.05228696,4
+oldpeak,0.04607855,4
+age,0.042789772,4
+ca,0.03936767,4
+thalch,0.035309196,4
+thal_normal,0.031901676,4
+fbs_False,0.029191332,4
+thal_reversable defect,0.027081924,4
+slope_flat,0.018820578,4
+restecg_normal,0.018350456,4
+trestbps,0.010688991,4
+restecg_st-t abnormality,0.0102983,4
+restecg_lv hypertrophy,0.0061701047,4
+cp_non-anginal,0.0058738603,4
+slope_downsloping,0.0021218213,4
+fbs_True,0.0,4
+cp_typical angina,0.0,4
+exang_True,0.0,4
+thal_fixed defect,0.0,4
+sex_Male,0.0,4
+cp_asymptomatic,0.35608745,5
+exang_False,0.12630817,5
+restecg_st-t abnormality,0.05568703,5
+chol,0.055493962,5
+sex_Female,0.04669698,5
+age,0.038048368,5
+ca,0.03762944,5
+thal_normal,0.03464436,5
+oldpeak,0.030931687,5
+restecg_normal,0.028892504,5
+thalch,0.025394902,5
+cp_atypical angina,0.023737496,5
+cp_non-anginal,0.023161,5
+fbs_False,0.023018988,5
+slope_flat,0.020969713,5
+thal_fixed defect,0.019920304,5
+thal_reversable defect,0.015952274,5
+slope_upsloping,0.014533479,5
+trestbps,0.011396616,5
+restecg_lv hypertrophy,0.011262857,5
+slope_downsloping,0.00023244109,5
+fbs_True,0.0,5
+cp_typical angina,0.0,5
+exang_True,0.0,5
+sex_Male,0.0,5

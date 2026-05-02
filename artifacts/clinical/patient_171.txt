@@ -1,0 +1,13 @@
+Low risk of heart disease (49.9%).
+
+Factors increasing risk:
+• Chest pain type (+0.794)
+• Gender (+0.212)
+• Slope of ST segment (+0.175)
+
+Factors reducing risk:
+• ST depression (indicator of ischemia) (-0.565)
+• Thalassemia / perfusion defect (-0.222)
+• Maximum heart rate achieved (-0.179)
+• Number of major vessels blocked (-0.143)
+• Cholesterol level (-0.140)

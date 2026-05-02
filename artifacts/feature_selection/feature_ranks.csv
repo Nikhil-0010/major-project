@@ -1,0 +1,26 @@
+feature,rank
+cp_asymptomatic,1
+cp_atypical angina,2
+sex_Female,3
+thal_normal,4
+ca,5
+chol,6
+oldpeak,7
+age,8
+slope_flat,9
+thal_reversable defect,10
+restecg_normal,11
+cp_typical angina,12
+cp_non-anginal,13
+thalch,14
+restecg_st-t abnormality,15
+restecg_lv hypertrophy,16
+slope_upsloping,17
+trestbps,18
+thal_fixed defect,19
+slope_downsloping,20
+fbs_False,21
+exang_True,22
+exang_False,23
+fbs_True,24
+sex_Male,25

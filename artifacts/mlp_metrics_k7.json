@@ -1,0 +1,8 @@
+{
+  "model": "MLP",
+  "features": "Top-7",
+  "roc_auc": 0.9226446676231468,
+  "avg_precision": 0.936820982006437,
+  "brier": 0.11817093154796587,
+  "train_epochs": 26
+}

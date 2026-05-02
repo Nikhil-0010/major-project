@@ -1,0 +1,32 @@
+{
+  "probability": 0.016275353729724884,
+  "risk_label": 0,
+  "positive_factors": [
+    {
+      "feature": "Slope of ST segment",
+      "impact": 0.20451727509498596
+    }
+  ],
+  "negative_factors": [
+    {
+      "feature": "Chest pain type",
+      "impact": -1.27195143699646
+    },
+    {
+      "feature": "Gender",
+      "impact": -0.7344782948493958
+    },
+    {
+      "feature": "Cholesterol level",
+      "impact": -0.6475263237953186
+    },
+    {
+      "feature": "Patient age",
+      "impact": -0.6046072244644165
+    },
+    {
+      "feature": "ST depression (indicator of ischemia)",
+      "impact": -0.511999249458313
+    }
+  ]
+}

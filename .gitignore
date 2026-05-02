@@ -1,0 +1,39 @@
+# Python & Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+notebook/
+notebooks/
+
+# Research & Raw Data
+data/
+figures/
+scripts/
+scripts/Readme.md
+heartenv_full_export.yml
+
+# Frontend (React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Project Specific (Artifacts are kept because the backend needs them to run!)
+# Do NOT ignore artifacts/models or artifacts/tuning_optuna since they have the AI models.

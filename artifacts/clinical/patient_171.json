@@ -1,0 +1,40 @@
+{
+  "probability": 0.4992232620716095,
+  "risk_label": 0,
+  "positive_factors": [
+    {
+      "feature": "Chest pain type",
+      "impact": 0.7941653728485107
+    },
+    {
+      "feature": "Gender",
+      "impact": 0.21238961815834045
+    },
+    {
+      "feature": "Slope of ST segment",
+      "impact": 0.17536498606204987
+    }
+  ],
+  "negative_factors": [
+    {
+      "feature": "ST depression (indicator of ischemia)",
+      "impact": -0.5645896792411804
+    },
+    {
+      "feature": "Thalassemia / perfusion defect",
+      "impact": -0.22221118211746216
+    },
+    {
+      "feature": "Maximum heart rate achieved",
+      "impact": -0.1786196231842041
+    },
+    {
+      "feature": "Number of major vessels blocked",
+      "impact": -0.14258970320224762
+    },
+    {
+      "feature": "Cholesterol level",
+      "impact": -0.13991038501262665
+    }
+  ]
+}

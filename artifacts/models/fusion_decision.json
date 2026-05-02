@@ -1,0 +1,7 @@
+{
+  "xgb_auc": 0.9091018651362983,
+  "ecg_auc": 0.8179100908656145,
+  "fused_auc": 0.911721425155428,
+  "correlation": 0.7585082135704093,
+  "fusion_recommended": true
+}

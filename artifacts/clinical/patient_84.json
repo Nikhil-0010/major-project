@@ -1,0 +1,32 @@
+{
+  "probability": 0.9920336604118347,
+  "risk_label": 1,
+  "positive_factors": [
+    {
+      "feature": "ST depression (indicator of ischemia)",
+      "impact": 1.0488386154174805
+    },
+    {
+      "feature": "Number of major vessels blocked",
+      "impact": 0.9409177899360657
+    },
+    {
+      "feature": "Chest pain type",
+      "impact": 0.8439760804176331
+    },
+    {
+      "feature": "Maximum heart rate achieved",
+      "impact": 0.6241375207901001
+    },
+    {
+      "feature": "Thalassemia / perfusion defect",
+      "impact": 0.5770399570465088
+    }
+  ],
+  "negative_factors": [
+    {
+      "feature": "Resting ECG result",
+      "impact": -0.023928336799144745
+    }
+  ]
+}

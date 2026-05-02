@@ -1,0 +1,11 @@
+Low risk of heart disease (1.6%).
+
+Factors increasing risk:
+• Slope of ST segment (+0.205)
+
+Factors reducing risk:
+• Chest pain type (-1.272)
+• Gender (-0.734)
+• Cholesterol level (-0.648)
+• Patient age (-0.605)
+• ST depression (indicator of ischemia) (-0.512)

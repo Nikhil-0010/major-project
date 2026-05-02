@@ -1,0 +1,252 @@
+[
+  {
+    "k": 1,
+    "n_features": 1,
+    "mean_auc": 0.7464777017622547,
+    "std_auc": 0.019083142354074916,
+    "mean_avg_precision": 0.7257142564804012,
+    "std_avg_precision": 0.018241595760216917,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top1.joblib",
+    "model_size_bytes": 80948
+  },
+  {
+    "k": 2,
+    "n_features": 2,
+    "mean_auc": 0.7720012367437842,
+    "std_auc": 0.023519525548387394,
+    "mean_avg_precision": 0.7449707054151398,
+    "std_avg_precision": 0.020088896507691485,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top2.joblib",
+    "model_size_bytes": 82923
+  },
+  {
+    "k": 3,
+    "n_features": 3,
+    "mean_auc": 0.80632761848209,
+    "std_auc": 0.031534161665403466,
+    "mean_avg_precision": 0.7824385047761808,
+    "std_avg_precision": 0.02921536347938413,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top3.joblib",
+    "model_size_bytes": 89339
+  },
+  {
+    "k": 4,
+    "n_features": 4,
+    "mean_auc": 0.82674410704221,
+    "std_auc": 0.030000910841772744,
+    "mean_avg_precision": 0.8168903336372335,
+    "std_avg_precision": 0.02493283059656965,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top4.joblib",
+    "model_size_bytes": 122739
+  },
+  {
+    "k": 5,
+    "n_features": 5,
+    "mean_auc": 0.8346685007254113,
+    "std_auc": 0.03325735340917401,
+    "mean_avg_precision": 0.830741903218103,
+    "std_avg_precision": 0.025646951872796628,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top5.joblib",
+    "model_size_bytes": 162725
+  },
+  {
+    "k": 6,
+    "n_features": 6,
+    "mean_auc": 0.8071667477358535,
+    "std_auc": 0.0189504377446253,
+    "mean_avg_precision": 0.8173411524132428,
+    "std_avg_precision": 0.021548122697649556,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top6.joblib",
+    "model_size_bytes": 175171
+  },
+  {
+    "k": 7,
+    "n_features": 7,
+    "mean_auc": 0.8238790974156828,
+    "std_auc": 0.03687181178969903,
+    "mean_avg_precision": 0.8416621653830397,
+    "std_avg_precision": 0.033964095196024544,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top7.joblib",
+    "model_size_bytes": 201013
+  },
+  {
+    "k": 8,
+    "n_features": 8,
+    "mean_auc": 0.8273468090676763,
+    "std_auc": 0.03797821877395347,
+    "mean_avg_precision": 0.8335429733652934,
+    "std_avg_precision": 0.028895698470735344,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top8.joblib",
+    "model_size_bytes": 209991
+  },
+  {
+    "k": 9,
+    "n_features": 9,
+    "mean_auc": 0.837347272320172,
+    "std_auc": 0.02788666130384398,
+    "mean_avg_precision": 0.8446520588940022,
+    "std_avg_precision": 0.022133421123199933,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top9.joblib",
+    "model_size_bytes": 211149
+  },
+  {
+    "k": 10,
+    "n_features": 10,
+    "mean_auc": 0.8400754504955048,
+    "std_auc": 0.025802344184784623,
+    "mean_avg_precision": 0.8492629811247199,
+    "std_avg_precision": 0.018206023562810897,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top10.joblib",
+    "model_size_bytes": 208465
+  },
+  {
+    "k": 11,
+    "n_features": 11,
+    "mean_auc": 0.8422571556717898,
+    "std_auc": 0.025988635634615218,
+    "mean_avg_precision": 0.848150114783007,
+    "std_avg_precision": 0.022114356167945545,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top11.joblib",
+    "model_size_bytes": 214451
+  },
+  {
+    "k": 12,
+    "n_features": 12,
+    "mean_auc": 0.8415463578878212,
+    "std_auc": 0.02582995633513609,
+    "mean_avg_precision": 0.8426495869702604,
+    "std_avg_precision": 0.027438138149954164,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top12.joblib",
+    "model_size_bytes": 214385
+  },
+  {
+    "k": 13,
+    "n_features": 13,
+    "mean_auc": 0.8441995733865653,
+    "std_auc": 0.0250860969576202,
+    "mean_avg_precision": 0.8500818161505537,
+    "std_avg_precision": 0.02047009067046939,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top13.joblib",
+    "model_size_bytes": 214727
+  },
+  {
+    "k": 14,
+    "n_features": 14,
+    "mean_auc": 0.8447676051741093,
+    "std_auc": 0.03220824018095371,
+    "mean_avg_precision": 0.8492418582212684,
+    "std_avg_precision": 0.034385780518268856,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top14.joblib",
+    "model_size_bytes": 201333
+  },
+  {
+    "k": 15,
+    "n_features": 15,
+    "mean_auc": 0.8542420241607231,
+    "std_auc": 0.024744822468740317,
+    "mean_avg_precision": 0.8531097613785723,
+    "std_avg_precision": 0.019141079634300256,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top15.joblib",
+    "model_size_bytes": 197935
+  },
+  {
+    "k": 16,
+    "n_features": 16,
+    "mean_auc": 0.8544092302357885,
+    "std_auc": 0.028096752000251576,
+    "mean_avg_precision": 0.8554324920549368,
+    "std_avg_precision": 0.02693296269361759,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top16.joblib",
+    "model_size_bytes": 200385
+  },
+  {
+    "k": 17,
+    "n_features": 17,
+    "mean_auc": 0.8512334799597671,
+    "std_auc": 0.03222876550875837,
+    "mean_avg_precision": 0.8502457794007657,
+    "std_avg_precision": 0.03467409714923204,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top17.joblib",
+    "model_size_bytes": 201271
+  },
+  {
+    "k": 18,
+    "n_features": 18,
+    "mean_auc": 0.8500809709210794,
+    "std_auc": 0.036165520182763464,
+    "mean_avg_precision": 0.8456898889955744,
+    "std_avg_precision": 0.03261205492181045,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top18.joblib",
+    "model_size_bytes": 198553
+  },
+  {
+    "k": 19,
+    "n_features": 19,
+    "mean_auc": 0.846991357533363,
+    "std_auc": 0.0372797108600117,
+    "mean_avg_precision": 0.8381192303366625,
+    "std_avg_precision": 0.036621170224681684,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top19.joblib",
+    "model_size_bytes": 199915
+  },
+  {
+    "k": 20,
+    "n_features": 20,
+    "mean_auc": 0.8446454047809061,
+    "std_auc": 0.03559219276241897,
+    "mean_avg_precision": 0.8442372123592277,
+    "std_avg_precision": 0.03472367797942485,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top20.joblib",
+    "model_size_bytes": 198217
+  },
+  {
+    "k": 21,
+    "n_features": 21,
+    "mean_auc": 0.8446454047809061,
+    "std_auc": 0.03559219276241897,
+    "mean_avg_precision": 0.8442372123592277,
+    "std_avg_precision": 0.03472367797942485,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top21.joblib",
+    "model_size_bytes": 198219
+  },
+  {
+    "k": 22,
+    "n_features": 22,
+    "mean_auc": 0.8446454047809061,
+    "std_auc": 0.03559219276241897,
+    "mean_avg_precision": 0.8442372123592277,
+    "std_avg_precision": 0.03472367797942485,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top22.joblib",
+    "model_size_bytes": 198221
+  },
+  {
+    "k": 23,
+    "n_features": 23,
+    "mean_auc": 0.8446454047809061,
+    "std_auc": 0.03559219276241897,
+    "mean_avg_precision": 0.8442372123592277,
+    "std_avg_precision": 0.03472367797942485,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top23.joblib",
+    "model_size_bytes": 198223
+  },
+  {
+    "k": 24,
+    "n_features": 24,
+    "mean_auc": 0.8446454047809061,
+    "std_auc": 0.03559219276241897,
+    "mean_avg_precision": 0.8442372123592277,
+    "std_avg_precision": 0.03472367797942485,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top24.joblib",
+    "model_size_bytes": 198225
+  },
+  {
+    "k": 25,
+    "n_features": 25,
+    "mean_auc": 0.8446454047809061,
+    "std_auc": 0.03559219276241897,
+    "mean_avg_precision": 0.8442372123592277,
+    "std_avg_precision": 0.03472367797942485,
+    "model_artifact": "../artifacts\\feature_selection\\pipeline_top25.joblib",
+    "model_size_bytes": 198227
+  }
+]
